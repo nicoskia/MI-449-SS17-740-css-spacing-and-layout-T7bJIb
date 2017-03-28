@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* Alex Nicoski's CSS Document. Colors for reference found below:
+
+Orange: #f38524
+Yellow: #fafa5e
+Light Blue: #82c1ed
+Dark Blue: #5096eb
+Olive Green: #577543
+Brown: #876c57
+Dark Brown: #473535
+Cream: #ece3d4
+
+*/
+html {
+  background-color: #222;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 900px;
+  color: #ddd;
+  margin: 1.5em auto;
+  border-radius: 5px;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.1em;
+}
+
+#main {
+  padding: 0 5px 5px;
+  margin: 0 5px 20px;
+}
+
+#name {
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 2px;
+}
+
+#footer {
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: -5px;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#bio {
+  text-align: justify;
+}
+
+hr {
+  border: 1px solid #333;
+  margin: 20px 0;
+}
+
+h1 {
+  margin: 0 0 20px;
+  padding: 5px 0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 1.7em;
+  text-align: left;
+}
+
+h2 {
+  margin: 10px;
+  padding: 7px;
+  font-size: 2em;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  color: #ddd;
+}
+
+h3 {
+  padding-left: 0;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #82c1ed;
+  font-size: 1.3em;
+}
+
+li {
+  text-align: left;
+}
+
+p {
+  margin: 10px;
+}
+
+a {
+  font-weight: bold;
+  color: #d2dbea;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #fff;
+}
+
+span {
+  display: block;
+}
+
+.link:link,
+.link:visited {
+  background-color: #333;
+  color: #d2dbea;
+  padding: 14px 25px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover {
+  color: white;
+}
+
+#nav {
+  text-align: center;
+}
+
+#nav li {
+  display: inline;
+  margin: 5px;
+}
+
+#nav a {
+  padding: 8px 10px;
+  color: #82c1ed;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+#nav a:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #5096eb;
+}
+
+#check {
+  float: right;
+}
+
+.spacing {
+  line-height: 3em;
+}
